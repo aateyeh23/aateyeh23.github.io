@@ -38,7 +38,8 @@
       </p>
 
       <div class="contact">
-        <a href="mailto:abdullah_ateyeh@berkeley.edu">abdullah_ateyeh@berkeley.edu</a><br>
+        <!-- The address is assembled by the script below so it never appears in the page source. -->
+        <a id="email-link" href="#">Email</a>
         <a href="cv.html">CV</a>
         <a href="https://scholar.google.com/citations?user=WpaHtn8AAAAJ">Google Scholar</a>
         <a href="https://arxiv.org/search/?searchtype=author&amp;query=Ateyeh%2C+Abdullah">arXiv</a>
@@ -55,6 +56,11 @@
   </ul>
   -->
 </main>
+
+<script>
+  document.getElementById("email-link").href =
+    "mailto:" + ["abdullah_ateyeh", "berkeley.edu"].join("@");
+</script>
 
 <footer>
   Last updated October 2026.
