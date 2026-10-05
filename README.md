@@ -1,7 +1,7 @@
 # personal_website
 
-Source for my academic website, https://aateyeh23.github.io, served by GitHub Pages
-from the `aateyeh23/aateyeh23.github.io` repository. Plain HTML and CSS,
+Source for my academic website, https://abdullahateyeh.github.io, served by GitHub Pages
+from the `abdullahateyeh/abdullahateyeh.github.io` repository. Plain HTML and CSS,
 no build step: what's in this folder is exactly what gets published.
 
 ## Layout
